@@ -3,14 +3,14 @@
 int main() {
     setlocale(LC_ALL, "Portuguese");
 
-    float a, b, c, media;
+    float a, b, soma;
 
-    printf("Digite tres numeros: ");
-    scanf("%f %f %f", &a, &b, &c);
+    printf("Digite dois valores reais: ");
+    scanf("%f %f", &a, &b);
 
-    media = (a + b + c) / 3;
+    soma = a + b;
 
-    printf("Media = %.2f\n", media);
+    printf("Soma = %.2f\n", soma);
 
     return 0;
 }
