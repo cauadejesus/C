@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <locale.h>
-int main() {
+void main (void){
     setlocale(LC_ALL, "Portuguese");
 
     float a, b, soma;
@@ -11,6 +11,4 @@ int main() {
     soma = a + b;
 
     printf("Soma = %.2f\n", soma);
-
-    return 0;
 }
